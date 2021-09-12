@@ -108,41 +108,18 @@ nav ul li a:hover {
 
 /* Here starts the about page */
 .about {
-  float: left;
-  width: 30%;
-  padding: 30px;
-  margin: 10px;
-  margin-bottom: 100px;
+  display: inline-block;
+  align-content: center;
+  vertical-align: top;
+  width: 45%;
+  height: 45%;
+  padding-left: 100px;
 }
 
-.about1 {
-  /* float: left; */
-  width: 30%;
-  padding: 30px;
-  margin: 10px;
-  margin-bottom: 100px;
-}
-
-.about img {
-  margin-top: 50px;
-}
-
-.about1 .paragraph {
+.about .paragraph {
   font-size: 18px;
-}
-
-.about1 .paragraph.clear {
-  clear: left;
-}
-
-.about1 .paragraph:after {
-  clear: left;
-}
-
-.about::after {
-  content: "";
-  display: table;
-  clear: both;
+  text-align: justify;
+  margin: 30px;
 }
 
 /* here starts contact page */
