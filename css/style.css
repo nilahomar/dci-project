@@ -90,7 +90,7 @@ nav ul li a:hover {
 
 .column1 {
   float: left;
-  width: 30%;
+  width: 32.5%;
   padding: 5px;
   margin: 1px;
   margin-top: 50px;
@@ -111,6 +111,7 @@ nav ul li a:hover {
   width: 45%;
   height: 45%;
   padding-left: 100px;
+  margin-bottom: 100px;
 }
 
 .about .paragraph {
@@ -119,6 +120,9 @@ nav ul li a:hover {
   margin: 30px;
 }
 
+.about h1 {
+  padding-left: 22px;
+}
 /* here starts contact page */
 form {
   max-width: 25%;
@@ -209,4 +213,14 @@ i {
 .pho-recipe h1 {
   text-decoration: underline;
   margin-bottom: 50px;
+}
+
+.comment h4 {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.comment h4:hover{
+  color: rgb(29, 18, 225);
 }
